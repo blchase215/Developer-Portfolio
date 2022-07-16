@@ -7,28 +7,31 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./style.css">
     </head>
 
 
     <body>
         <!-- name and page links -->
-        <header>   
+        <header id="page-top">   
             <h1>Brian Chase</h1>
             <!-- nav section of page links -->
             <nav>
                 <ul>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">Contact Me</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Let's Connect</a></li>
                 </ul>
             </nav>    
         </header>
 
         <main>
-            <section>
-                <figure>image with subtitle</figure>
-                
+            <section id="about-me">
+                <!-- image with subtitle -->
+                <figure>
+                    <h1>subtitle</h1>
+                </figure>
+
                 <!-- about me section -->
                 <h2>About Me</h2>
                 <p>
@@ -40,10 +43,11 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
                     officia deserunt mollit anim id est laborum."
                 </p>
+                <a href="#page-top">Back to top</a>
             </section>
             <!-- work section, project links -->
             <!-- style with flexbox -->
-            <section>
+            <section id="work">
                 <div class="proj-1">
                     <figure>background image</figure>
                     <h3>Project 1 Title</h3>
@@ -69,14 +73,15 @@
                     <figure>background image</figure>
                     <h3>Project 5 Title</h3>
                     <h6>Project 5 Subheading</h6>
-                </div>                
+                </div>
+                <a href="#page-top">Back to top</a>                
             </section>
 
         </main>
         <!-- contact links -->
-        <footer>
+        <footer id="contact">
             
-            <h2>Contact Me</h2>
+            <h2>Let's Connect</h2>
             <ul>
                 <li><a href="">phone</a></li>
                 <li><a href="">email</a></li>
@@ -84,6 +89,7 @@
                 <li><a href="">twitter</a></li>
                 <li><a href="">instagram</a></li>
             </ul>
+            <a href="#page-top">Back to top</a>
         </footer>
         
     </body>
