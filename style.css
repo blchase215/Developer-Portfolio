@@ -1,3 +1,10 @@
-:root {
-    /* add variables here */
+/* :root {
+    /* add variables here 
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
