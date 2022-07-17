@@ -1,0 +1,45 @@
+:root {
+    --dark: #1f1f23;
+    --light: #8f8f93;
+    --accent: #487f9d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    justify-content: flex-start;
+} */
+
+header {
+    padding: 10px;
+    border-width: 100%;
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--light);
+    /* max-height: 90%; */
+    /* display: inline; */
+}
+
+header h1 {
+    /* display: inline-block; */
+    max-height: 90%;
+}
+
+nav {
+    border-width: 100%;
+    text-align: center;
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
