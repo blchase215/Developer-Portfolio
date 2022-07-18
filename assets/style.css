@@ -2,6 +2,7 @@
     --dark: #1f1f23;
     --light: #8f8f93;
     --accent: #487f9d;
+    --text: #CDC1BA;
 }
 
 * {
@@ -19,7 +20,7 @@ header {
     border-width: 100%;
     text-align: center;
     background-color: var(--dark);
-    color: var(--light);
+    color: var(--text);
     /* max-height: 90%; */
     /* display: inline; */
 }
@@ -27,6 +28,7 @@ header {
 header h1 {
     /* display: inline-block; */
     max-height: 90%;
+
 }
 
 nav {
@@ -42,4 +44,24 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+}
+
+.profile {
+    text-align: right;
+    height: 1983px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/profile.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+}
+
+.profile h1 {
+    display: inline-block;
+    color: var(--text);
+    margin: 30px;
+    padding: 20px;
+    background-color: var(--dark);
+
 }
