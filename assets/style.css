@@ -1,8 +1,15 @@
 :root {
+    /* garfield bowling palette */
     --dark: #1f1f23;
     --light: #8f8f93;
     --accent: #487f9d;
-    --text: #CDC1BA;
+    --text: #d8dddd;
+    /* profile pic palette */
+    --twine: #d3d4d4;
+    --onion: #2B1C0D;
+    --leather: #906E4B;
+    --kelp: #494936;
+    --gurkha: #A19E70;
 }
 
 * {
@@ -16,42 +23,83 @@
 } */
 
 header {
-    padding: 10px;
+    padding: 23px;
     border-width: 100%;
     text-align: center;
-    background-color: var(--dark);
+    background-color: var(--gurkha);
     color: var(--text);
-    /* max-height: 90%; */
-    /* display: inline; */
 }
 
 header h1 {
-    /* display: inline-block; */
-    max-height: 90%;
-
+    font-size: 66px;
 }
 
 nav {
-    border-width: 100%;
+    width: 100%;
     text-align: center;
-    background-color: var(--light);
+    background-color: var(--leather);
     color: var(--dark);
+    height: auto;
 }
 
 nav ul {
+    display: flex;
     list-style-type: none;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 
 nav ul li {
     display: inline-block;
+    justify-content: center;
+    flex-grow: 3;
+    padding: 7%;
+    /* height: 83px; */
+    font-size: 100%;
+    color: var(--onion);
 }
+
+/* styles for link text */
+ /* nav ul li a {
+    color: var(--onion);
+} */
+
+/* profile image and banner styling */
+/* mobile */
 
 .profile {
     text-align: right;
+    height: 777px;
+    width: 100%;
+    margin-top: auto;
+    background-image: url("../assets/images/profile2.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 83%;
+}
+
+.profile h1 {
+    display: inline-block;
+    color: var(--text);
+    margin: 30px;
+    padding: 20px;
+    background-color: var(--dark);
+    border-radius: 42px 13px 42px 13px;
+    box-shadow: 7px var(--kelp);
+}
+
+/* profile image and banner styling */
+/* desktop */
+
+/* .profile {
+    text-align: right;
     height: 1983px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../assets/images/profile.jpg");
+    margin-top: auto;
+    margin-bottom: 39px;
+    background-image: url("../assets/images/profile2.jpg");
     background-size: cover;
     background-position: center;
     opacity: 80%;
@@ -64,4 +112,23 @@ nav ul li {
     padding: 20px;
     background-color: var(--dark);
 
+} */
+#about-me {
+    background-color: var(--kelp);
+    padding: 7%;
+    color: var(--text);
+}
+
+#work {
+    background-color: var(--twine);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#contact {
+    background-color: var(--gurkha);
+}
+.proj-2 {
+    border: var(--onion);
 }
