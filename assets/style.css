@@ -25,8 +25,7 @@ body {
 
 header {
     padding: 13px;
-    border-bottom: 2px var(--onion);
-    border-width: 3px;
+   
     text-align: center;   
     background-color: var(--gurkha);
     color: var(--text);
@@ -37,16 +36,28 @@ header h1 {
     outline: 3px;
     outline-style: dashed;
     outline-offset: 5px;
+    height: auto;
+    border-bottom: 10px var(--onion);
+    
+}
+
+.backcolor {
+    margin-top: auto;
+    position: absolute;
+    background-color: var(--onion);
+    width: 100%;
 }
 
 nav {
+    /* border-top: 3px dotted var(--onion); */
+    border-bottom: 3px dashed var(--onion);
     margin-top: auto;
     width: 100%;
     text-align: center;
     background-color: var(--leather);
     color: var(--dark);
     height: auto;
-    border-radius: 11px 11px 11px 11px;
+    /* border-radius: 11px 11px 11px 11px; */
 }
 
 nav ul {
@@ -60,12 +71,16 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    justify-content: center;
-    flex-grow: 3;
+    justify-content: space-between;
+    flex-grow: 1;
     padding: 5%;
     /* height: 83px; */
-    font-size: 100%;
-    color: var(--onion);
+    
+}
+
+.topNav {
+    font-size: 18px;
+    color: var(--textS);
 }
 
 /* styles for link text */
@@ -83,7 +98,7 @@ nav ul li {
     margin-top: auto;
     background-image: url("../assets/images/profile2.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 100%;
     opacity: 86%;
 }
 
@@ -125,6 +140,7 @@ nav ul li {
 
 } */
 #about-me {
+    border-top: 3px dashed var(--onion);
     background-color: var(--kelp);
     padding: 5%;
     color: var(--text);
@@ -155,15 +171,45 @@ nav ul li {
 }
 
 .proj-2 {
+    color: var(--text);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     border-style: dashed;
     border-width: 5px;
     border-color: var(--onion);
-    flex-grow: 0;
+    flex-grow: 1;
     width: 49%;
     margin: 2px;
     background-image: url("../assets/images/profile2.jpg");
     justify-content: space-between;
+}
+
+#contact {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    background-color: var(--leather);
+    color: var(--dark);
+    height: auto;
+    border-radius: 11px 11px 11px 11px;
+}
+
+#contact ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+#contact ul li {
+    display: inline-block;
+    justify-content: center;
+    flex-grow: 3;
+    padding: 5%;
+    /* height: 83px; */
+    font-size: 100%;
+    color: var(--onion);
 }
