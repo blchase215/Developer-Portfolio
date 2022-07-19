@@ -18,28 +18,35 @@
     box-sizing: border-box;
 }
 
-/* body {
+body {
     justify-content: flex-start;
-} */
+    background-color: var(--twine);
+}
 
 header {
-    padding: 23px;
-    border-width: 100%;
-    text-align: center;
+    padding: 13px;
+    border-bottom: 2px var(--onion);
+    border-width: 3px;
+    text-align: center;   
     background-color: var(--gurkha);
     color: var(--text);
 }
 
 header h1 {
     font-size: 66px;
+    outline: 3px;
+    outline-style: dashed;
+    outline-offset: 5px;
 }
 
 nav {
+    margin-top: auto;
     width: 100%;
     text-align: center;
     background-color: var(--leather);
     color: var(--dark);
     height: auto;
+    border-radius: 11px 11px 11px 11px;
 }
 
 nav ul {
@@ -55,7 +62,7 @@ nav ul li {
     display: inline-block;
     justify-content: center;
     flex-grow: 3;
-    padding: 7%;
+    padding: 5%;
     /* height: 83px; */
     font-size: 100%;
     color: var(--onion);
@@ -70,24 +77,28 @@ nav ul li {
 /* mobile */
 
 .profile {
-    text-align: right;
-    height: 777px;
+    text-align: center;
+    height: 666px;
     width: 100%;
     margin-top: auto;
     background-image: url("../assets/images/profile2.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 83%;
+    opacity: 86%;
 }
 
 .profile h1 {
     display: inline-block;
     color: var(--text);
-    margin: 30px;
+    text-align: center;
+    margin-top: 432px;
     padding: 20px;
-    background-color: var(--dark);
-    border-radius: 42px 13px 42px 13px;
-    box-shadow: 7px var(--kelp);
+    background-color: var(--onion);
+    border-radius: 39px 13px 39px 13px;
+    /* box-shadow: 7px 7px 7px var(--gurkha) inset; */
+    /* bottom // top? */
+            /* >|-<, v|^, dif, size*/
+    box-shadow: 0px 0px 0px 23px var(--leather), 0px 0px 0px 39px var(--gurkha);
 }
 
 /* profile image and banner styling */
@@ -115,20 +126,44 @@ nav ul li {
 } */
 #about-me {
     background-color: var(--kelp);
-    padding: 7%;
+    padding: 5%;
     color: var(--text);
 }
 
 #work {
     background-color: var(--twine);
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
+    
 }
 
 #contact {
     background-color: var(--gurkha);
 }
+
+.proj-1 {
+    width: 100%;
+    flex-wrap: wrap;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: var(--onion);
+    flex-grow: 2;
+    margin: 2px;
+    background-image: url("../assets/images/profile2.jpg");
+    color: var(--text);
+}
+
 .proj-2 {
-    border: var(--onion);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: var(--onion);
+    flex-grow: 0;
+    width: 49%;
+    margin: 2px;
+    background-image: url("../assets/images/profile2.jpg");
+    justify-content: space-between;
 }
