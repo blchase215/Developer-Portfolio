@@ -80,13 +80,13 @@ nav ul li {
 
 .topNav {
     font-size: 18px;
-    color: var(--textS);
+    color: var(--texts);
 }
 
 /* styles for link text */
- /* nav ul li a {
+nav ul li a {
     color: var(--onion);
-} */
+}
 
 /* profile image and banner styling */
 /* mobile */
@@ -243,3 +243,8 @@ nav ul li {
     font-size: 100%;
     color: var(--onion);
 }
+
+
+/* left todo: */
+
+/*  */
