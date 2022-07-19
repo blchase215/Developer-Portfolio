@@ -158,16 +158,31 @@ nav ul li {
     background-color: var(--gurkha);
 }
 
+/* .backgroundImage {
+    background-image: url("../assets/images/profile2.jpg");
+    background-size: cover;
+    background-position: 100%;
+    opacity: 86%;
+} */
+
+.card {
+
+}
+
 .proj-1 {
     width: 100%;
     flex-wrap: wrap;
     border-style: dashed;
     border-width: 5px;
-    border-color: var(--onion);
+    border-color: var(--kelp);
     flex-grow: 2;
     margin: 2px;
-    background-image: url("../assets/images/profile2.jpg");
     color: var(--text);
+    background-image: url("../assets/images/profile3.jpg");
+    background-size: fill;
+    background-position: 100%;
+    opacity: 86%;
+    height: 540px;
 }
 
 .proj-2 {
@@ -177,12 +192,16 @@ nav ul li {
     flex-wrap: wrap;
     border-style: dashed;
     border-width: 5px;
-    border-color: var(--onion);
+    border-color: var(--kelp);
     flex-grow: 1;
     width: 49%;
     margin: 2px;
-    background-image: url("../assets/images/profile2.jpg");
     justify-content: space-between;
+    background-image: url("../assets/images/profile2.jpg");
+    background-size: cover;
+    background-position: fill;
+    opacity: 86%;
+    height: 360px;
 }
 
 #contact {
