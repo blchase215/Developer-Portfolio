@@ -84,9 +84,9 @@ nav ul li {
 }
 
 /* styles for link text */
-nav ul li a {
+/* nav ul li a {
     color: var(--text);
-}
+} */
 
 /* profile image and banner styling */
 /* mobile */
@@ -140,6 +140,7 @@ nav ul li a {
     background-color: var(--dark);
 
 } */
+
 #about-me {
     border-top: 3px dashed var(--onion);
     background-color: var(--kelp);
@@ -214,18 +215,9 @@ nav ul li a {
 #contact {
     margin-top: auto;
     width: 100%;
-    text-align: left;
+    text-align: center;
     background-color: var(--leather);
     height: auto;
-}
-
-#contact ul li {
-    display: inline-block;
-    justify-content: left;
-    flex-grow: 1;
-    padding: 3px;
-    /* height: 83px; */
-    font-size: 100%;
 }
 
 #contact h2 {
@@ -245,6 +237,14 @@ nav ul li a {
     
 }
 
+#contact ul li {
+    display: inline-block;
+    text-align: left;
+    flex-grow: 1;
+    padding: 3px;
+    /* height: 83px; */
+    font-size: 100%;
+}
 
 
 
