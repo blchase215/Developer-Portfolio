@@ -78,14 +78,14 @@ nav ul li {
     
 }
 
-.topNav {
-    font-size: 18px;
-    color: var(--texts);
+.liText {
+    font-size: 25px;
+    color: var(--text);
 }
 
 /* styles for link text */
 nav ul li a {
-    color: var(--onion);
+    color: var(--text);
 }
 
 /* profile image and banner styling */
@@ -159,10 +159,6 @@ nav ul li a {
     padding: 15px;
 }
 
-#contact {
-    background-color: var(--gurkha);
-}
-
 /* .backgroundImage {
     background-image: url("../assets/images/profile2.jpg");
     background-size: cover;
@@ -188,7 +184,7 @@ nav ul li a {
     border-style: dashed;
     border-width: 5px;
     border-color: var(--kelp);
-    flex-grow: 2;
+    flex-grow: 4;
     margin: 2px;
     color: var(--text);
     background-image: url("../assets/images/profile2.jpg");
@@ -218,31 +214,38 @@ nav ul li a {
 #contact {
     margin-top: auto;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-color: var(--leather);
-    color: var(--dark);
     height: auto;
-    border-radius: 11px 11px 11px 11px;
+}
+
+#contact ul li {
+    display: inline-block;
+    justify-content: left;
+    flex-grow: 1;
+    padding: 3px;
+    /* height: 83px; */
+    font-size: 100%;
+}
+
+#contact h2 {
+    border: 3px dashed var(--onion);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: var(--onion);
+    justify-content: center;
 }
 
 #contact ul {
     display: flex;
     list-style-type: none;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     
 }
 
-#contact ul li {
-    display: inline-block;
-    justify-content: center;
-    flex-grow: 3;
-    padding: 5%;
-    /* height: 83px; */
-    font-size: 100%;
-    color: var(--onion);
-}
+
 
 
 /* left todo: */
