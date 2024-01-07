@@ -12,6 +12,6 @@ Eventually the __Work__ section will link to examples of coding projects I have 
 ## Link
 
 https://blchase215.github.io/Developer-Portfolio/
-![Brian Chase Developer Profile](/assets/images/profile3.jpg)
+![Brian Chase Developer Profile](/assets/images/Profile3.jpg)
 
 
